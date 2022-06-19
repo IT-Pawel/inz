@@ -15,10 +15,13 @@ Języki:
 - PHP 7.4.30
 - mysql 5.7.33
 - Laravel 8
+
 Moduły:
+
 - Node.js 12.22.11
 - npm 6.14.16
 - Git
+
 Biblioteki:
 - Sass
 - jQuery
@@ -35,7 +38,6 @@ php artisan migrate
 php artisan db:seed
 
 php artisan serve
-
 ```
 
 Dane do admina
