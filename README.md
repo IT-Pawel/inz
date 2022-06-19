@@ -10,7 +10,6 @@
 
 ## Dealing with Program
 
-Potrzebne programy
 Języki:
 - PHP 7.4.30
 - mysql 5.7.33
