@@ -16,11 +16,10 @@ use Illuminate\Support\Facades\Auth;
 
 
 Auth::routes([
-    'register' => false,
     'reset' => false,
 ]);
-
 Route::get('/', 'homeController@index');
+Route::get('/home', 'homeController@index');
 
 Route::group(['middleware' => ['auth']], function() {
     Route::resource('roles', RoleController::class);

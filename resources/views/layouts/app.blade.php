@@ -37,6 +37,7 @@
                         <!-- Authentication Links -->
                         @guest
                             <li><a class="nav-link" href="{{ route('login') }}">Zaloguj</a></li>
+                            <li><a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a></li>
                         @else
                         @hasrole('Admin')
                             <li><a class="nav-link" href="{{ route('users.index') }}">Zarządzaj użytkownikami</a></li>
